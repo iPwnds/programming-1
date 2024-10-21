@@ -1,4 +1,10 @@
 # write your code here
 
 def box(string):
-    return
+    length = '--'
+    for i in string:
+        length += '-'
+
+    return("+" + length + "+\n"
+          "| " + string + " |\n"
+          "+" + length + "+")
