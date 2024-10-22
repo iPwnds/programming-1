@@ -6,7 +6,6 @@ def parse_position_x(string):
     while len(string) > i:
         if string[i] == ",":
             index = i
-            break
         i += 1
     result = string[:index - 1]
     return int(result)
