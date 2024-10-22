@@ -18,7 +18,7 @@ However, if the year is divisible by 100, it is _not_ a leap year, except if it 
 ### `IMPORTANT`
 
 This exercise involves writing more than one function.
-All tests are grouped in a single file named `test-dates.py`.
+All tests are grouped in a single file named `test.py`.
 
 ### `TASK`
 
@@ -46,7 +46,7 @@ Note the extra parameter: `year` is needed because the result will depend on whe
 
 ### `TASK`
 
-Write a function `has_29_days(month, year)` that returns `True` if the given month counts 28 days in total, `False` otherwise.
+Write a function `has_29_days(month, year)` that returns `True` if the given month counts 29 days in total, `False` otherwise.
 
 ## `is_valid_date`
 
