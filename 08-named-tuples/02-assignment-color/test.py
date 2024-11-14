@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pytest
 import student
 
@@ -106,3 +107,6 @@ def test_clamp_color_exists():
 def test_clamp_color(color, expected):
     actual = student.clamp_color(color)
     assert expected == actual
+=======
+
+>>>>>>> d0ee4a0d3ecca4132dc987a26264480e89ab4952

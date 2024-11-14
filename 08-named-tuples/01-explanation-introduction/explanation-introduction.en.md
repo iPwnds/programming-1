@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Introduction
 
 We can distinguish two uses for tuples:
@@ -151,3 +152,8 @@ obj.field2    # Evaluates to field2_value
 obj.field3    # Evaluates to field3_value
 ...
 ```
+=======
+## Not part of this course anymore
+
+You can just skip me!
+>>>>>>> d0ee4a0d3ecca4132dc987a26264480e89ab4952

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Movie
 
 We want to create a small movie database.
@@ -99,3 +100,8 @@ Movie(title="Amra Ekta Cinema Banabo", runtime=1265, ...)
 ```
 
 
+=======
+## Not part of this course anymore
+
+You can just skip me!
+>>>>>>> d0ee4a0d3ecca4132dc987a26264480e89ab4952

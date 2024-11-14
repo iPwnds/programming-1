@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pytest
 import student
 from functools import cache
@@ -289,3 +290,6 @@ def test_movies_by(movies, director, expected):
 def test_longest_movie(movies, expected):
     actual = student.longest_movie(movies)
     assert expected is actual
+=======
+
+>>>>>>> d0ee4a0d3ecca4132dc987a26264480e89ab4952

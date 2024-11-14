@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Colors
 
 In this exercise, we'll create a new `Color` type and define a few operations on them.
@@ -55,3 +56,8 @@ Write a function `clamp_color(color)` that returns a clamped copy of `color`.
 >>> clamp_color(Color(50, -50, 300))
 Color(r=50, g=0, b=255)
 ```
+=======
+## Not part of this course anymore
+
+You can just skip me!
+>>>>>>> d0ee4a0d3ecca4132dc987a26264480e89ab4952
