@@ -9,7 +9,7 @@ from string import ascii_lowercase
     (
         "",
         [],
-        set()
+        {''}
     ),
     (
         "word",
