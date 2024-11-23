@@ -8,9 +8,9 @@ import student
 @pytest.mark.parametrize("armor", [0, 2, 5])
 def test_valid_initialization(health, firepower, armor):
     unit = student.Unit(health=health, firepower=firepower, armor=armor)
-    assert unit.health == health
-    assert unit.firepower == firepower
-    assert unit.armor == armor
+    assert unit.health() == health
+    assert unit.firepower() == firepower
+    assert unit.armor() == armor
 
 
 @pytest.mark.timeout(1)
@@ -47,9 +47,9 @@ def test_shot_by(a_health, a_firepower, a_armor, b_health, b_armor, b_firepower,
     unit_b.shot_by(unit_a)
 
     # Assert
-    assert expected_b_health == unit_b.health
-    assert a_health == unit_a.health
-    assert a_firepower == unit_a.firepower
-    assert a_armor == unit_a.armor
-    assert b_firepower == unit_b.firepower
-    assert b_armor == unit_b.armor
+    assert expected_b_health == unit_b.health()
+    assert a_health == unit_a.health()
+    assert a_firepower == unit_a.firepower()
+    assert a_armor == unit_a.armor()
+    assert b_firepower == unit_b.firepower()
+    assert b_armor == unit_b.armor()
